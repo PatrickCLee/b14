@@ -41,6 +41,7 @@ public class ContentActivity extends AppCompatActivity {
         strContent = getIntent().getStringExtra("content");
 
         content.setText(strContent);                        //*11
+//        fetchImage();
         fetchImageV2();
     }
 
